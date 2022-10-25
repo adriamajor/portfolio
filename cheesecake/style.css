@@ -5,10 +5,15 @@ body {
 h1 {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
-    font-size: 40px;
+    font-size: 70px;
     text-align: center;
 }
-
+h2 {
+    color:rgb(0, 0, 0);
+    font-family: "Lucida Console", Monospace;
+    font-size: 28px;
+    text-align: center;
+}
 p {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
@@ -16,7 +21,7 @@ p {
 }
 
 div {
-    background-color:#e299e7;
+    background-color:#9660f9;
     position:absolute; left: 150px; top: 200px;
     width: 500px;
     padding: 5px;
@@ -26,7 +31,7 @@ div {
 }
 
 div-1 {
-    background-color:#792b7e;
+    background-color:#9b99ff;
     position:absolute; right: 150px; top: 200px;
     width: 500px;
     padding: 5px;
@@ -37,4 +42,12 @@ div-1 {
 
 a:visited {
     text-decoration: none;
+}
+
+button {
+    background-color:#b8b7ff;
+    position:center; left: 200px;
+    border-radius: 10px;
+    border-style: double;
+    margin: 5px;
 }
