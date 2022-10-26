@@ -1,5 +1,6 @@
 body {
-   background-image: url('https://i.pinimg.com/originals/1f/3d/43/1f3d43bcd2f77090fe4e8ee181654a3e.jpg')
+    background-image: url('https://i.pinimg.com/originals/1f/3d/43/1f3d43bcd2f77090fe4e8ee181654a3e.jpg');
+    background-size: cover
 }
 
 h1 {
