@@ -20,7 +20,7 @@ p {
     font-size: 20px
 }
 
-div {
+.box-1 {
     background-color:#9660f9;
     position:absolute; left: 150px; top: 200px;
     width: 500px;
@@ -30,7 +30,7 @@ div {
     margin: 25px;
 }
 
-div-1 {
+.box-2 {
     background-color:#9b99ff;
     position:absolute; right: 150px; top: 200px;
     width: 500px;
@@ -44,7 +44,7 @@ a:visited {
     text-decoration: none;
 }
 
-button {
+.button {
     background-color:#b8b7ff;
     position:center; left: 200px;
     border-radius: 10px;
