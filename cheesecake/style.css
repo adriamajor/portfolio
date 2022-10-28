@@ -3,13 +3,13 @@ body {
     background-size: cover
 }
 
-h1 {
+.h1 {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
-    font-size: 70px;
+    font-size: 55px;
     text-align: center;
 }
-h2 {
+.h2 {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
     font-size: 28px;
@@ -23,7 +23,6 @@ p {
 
 .box-1 {
     background-color:#9660f9;
-    position:absolute; left: 150px; top: 200px;
     width: 500px;
     padding: 5px;
     border-radius: 10px;
@@ -33,7 +32,6 @@ p {
 
 .box-2 {
     background-color:#9b99ff;
-    position:absolute; right: 150px; top: 200px;
     width: 500px;
     padding: 5px;
     border-radius: 10px;
