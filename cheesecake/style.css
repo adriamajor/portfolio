@@ -20,6 +20,13 @@ h2 {
     font-size: 28px;
     text-align: center;
 }
+
+h3 {
+    color:rgb(0, 0, 0);
+    font-family: "Lucida Console", Monospace;
+    font-size: 20px;
+    text-align: center;
+}
 p {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
@@ -28,20 +35,22 @@ p {
 
 .box-1 {
     background-color:#9660f9;
-    width: 500px;
+    width: 1000px;
     padding: 5px;
     border-radius: 10px;
     border-style: double;
     margin: 25px;
+    text-align: center;
 }
 
 .box-2 {
     background-color:#9b99ff;
-    width: 500px;
+    width: 1000px;
     padding: 5px;
     border-radius: 10px;
     border-style: double;
     margin: 25px;
+    text-align: center;
 }
 
 a:visited {
@@ -49,8 +58,17 @@ a:visited {
 }
 
 .button {
-    background-color:#b8b7ff;
+    background-color:#2a2a3f;
+    border-color: #9660f9;
     border-radius: 10px;
-    border-style: double;
+    border-style: groove;
     margin: auto;
 }
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
