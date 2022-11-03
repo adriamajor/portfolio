@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-    color:rgb(0, 0, 0);
+    color:#80659e;
     font-family: "Lucida Console", Monospace;
     font-size: 20px;
     text-align: center;
@@ -53,13 +53,23 @@ p {
     text-align: center;
 }
 
+.box-2 {
+    background-color:#5251a8;
+    width: 1000px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    margin: 25px;
+    text-align: center;
+}
+
 a:visited {
     text-decoration: none;
 }
 
 .button {
-    background-color:#2a2a3f;
-    border-color: #9660f9;
+    background-color:#80659e;
+    border-color: #270b5a;
     border-radius: 10px;
     border-style: groove;
     margin: auto;
@@ -72,3 +82,8 @@ a:visited {
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
   }
+
+.pic {
+    width:7px;
+    height:75px;
+}
