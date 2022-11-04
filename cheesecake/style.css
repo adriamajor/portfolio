@@ -11,30 +11,31 @@ body {
 h1 {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
 }
 h2 {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
-    font-size: 28px;
+    font-size: 35px;
     text-align: center;
 }
 
 h3 {
     color:#80659e;
     font-family: "Lucida Console", Monospace;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 p {
     color:rgb(0, 0, 0);
     font-family: "Lucida Console", Monospace;
-    font-size: 20px
+    font-size: 25px
 }
 
 .box-1 {
     background-color:#9660f9;
+    border-color: #350393;
     width: 1000px;
     padding: 5px;
     border-radius: 10px;
@@ -44,7 +45,8 @@ p {
 }
 
 .box-2 {
-    background-color:#9b99ff;
+    background-color:#ee714e;
+    border-color: #b85f00;
     width: 1000px;
     padding: 5px;
     border-radius: 10px;
@@ -53,8 +55,9 @@ p {
     text-align: center;
 }
 
-.box-2 {
-    background-color:#5251a8;
+.box-3 {
+    background-color:#8398f9;
+    border-color: #132c9f;
     width: 1000px;
     padding: 5px;
     border-radius: 10px;
