@@ -58,7 +58,18 @@ p {
 .box-3 {
     background-color:#8398f9;
     border-color: #132c9f;
-    width: 1000px;
+    width: 750px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    margin: 25px;
+    text-align: center;
+}
+
+.box-4 {
+    background-color:#f9a483;
+    border-color: #ee8b2f;
+    width: 750px;
     padding: 5px;
     border-radius: 10px;
     border-style: double;
